@@ -908,5 +908,15 @@
     "path": "image/profile/user_state.png",
     "hash": "be15ea85b66ae84981d1ea94fdfc1874",
     "lock": true
+  },
+  {
+    "path": "templates/message.css",
+    "hash": "fdb844f599101a6ba723b7ca2ae935e6",
+    "lock": true
+  },
+  {
+    "path": "templates/info.html",
+    "hash": "ddf53a0c662de7cf8d180250b4f73e20",
+    "lock": true
   }
 ]
