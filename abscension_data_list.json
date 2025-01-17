@@ -1,0 +1,117 @@
+[
+  {
+    "path": "data/境界.json",
+    "hash": "5d6778dbd08d7ad66052f530686e1d3e",
+    "lock": true
+  },
+  {
+    "path": "data/突破概率.json",
+    "hash": "4a4401941f3a7c4d0fccbf5ee0670058",
+    "lock": true
+  },
+  {
+    "path": "data/物品.json",
+    "hash": "3326a4ff5c87032454fb8e8cbadebd68",
+    "lock": true
+  },
+  {
+    "path": "data/灵根.json",
+    "hash": "b7648aaa0defa57180b30e00780a14c2",
+    "lock": true
+  },
+  {
+    "path": "data/宗门.json",
+    "hash": "80dd9a444ad8b89c83a6015acbdb3f65",
+    "lock": true
+  },
+  {
+    "path": "data/丹药/炼丹炉.json",
+    "hash": "976fbca8fdb622132e75ad0d7ff58616",
+    "lock": true
+  },
+  {
+    "path": "data/丹药/奖励丹药.json",
+    "hash": "54f5111c52932cdcd3a477aaa1055387",
+    "lock": true
+  },
+  {
+    "path": "data/丹药/药材.json",
+    "hash": "fdcad11a242fb1a567547b58527616fe",
+    "lock": true
+  },
+  {
+    "path": "data/丹药/炼丹丹药.json",
+    "hash": "f0bda468321a2b80e7ff9108f1cb70e7",
+    "lock": true
+  },
+  {
+    "path": "data/丹药/神物.json",
+    "hash": "5900b91022ea1e88c8cdd4eac3c621d6",
+    "lock": true
+  },
+  {
+    "path": "data/丹药/礼包.json",
+    "hash": "f1c8ea66422f2c7d4e7caac313daa81c",
+    "lock": true
+  },
+  {
+    "path": "data/修炼物品/聚灵旗.json",
+    "hash": "ef7569b549395792ab98d4377bb8d671",
+    "lock": true
+  },
+  {
+    "path": "data/功法/功法概率.json",
+    "hash": "a4b4b21542f0f208c2cd8d45f1dfccce",
+    "lock": true
+  },
+  {
+    "path": "data/功法/神通.json",
+    "hash": "c939743774f7b10b38400f059696d36b",
+    "lock": true
+  },
+  {
+    "path": "data/功法/辅修功法.json",
+    "hash": "b43db92cb416ff5406329a3a23712ecf",
+    "lock": true
+  },
+  {
+    "path": "data/功法/主功法.json",
+    "hash": "a3fc767b99e14de97530754f4befe8d7",
+    "lock": true
+  },
+  {
+    "path": "data/悬赏令/暗杀.json",
+    "hash": "e0f60b674b5c5c9421ea39ad25bfa7f6",
+    "lock": true
+  },
+  {
+    "path": "data/悬赏令/镇妖.json",
+    "hash": "e65a04c7edc2cd230a6733ae7db0bea9",
+    "lock": true
+  },
+  {
+    "path": "data/悬赏令/灵材.json",
+    "hash": "4b81ecb1b61348888c0fad63c8f90a9d",
+    "lock": true
+  },
+  {
+    "path": "data/悬赏令/等级奖励稿.json",
+    "hash": "ac3c86b644cde67cf00843f9968196a1",
+    "lock": true
+  },
+  {
+    "path": "data/装备/防具.json",
+    "hash": "c81add717544a8e96871cfdaf5ce54fd",
+    "lock": true
+  },
+  {
+    "path": "data/装备/法器.json",
+    "hash": "69806caf040f038016c09067a8e175e4",
+    "lock": true
+  },
+  {
+    "path": "data/Boss掉落物/掉落物.json",
+    "hash": "903798acc2526f3920defbdc42622575",
+    "lock": true
+  }
+]
