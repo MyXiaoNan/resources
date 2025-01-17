@@ -5,10 +5,7 @@ on:
     branches: [ main ]
     paths:
       - 'data/**'
-      - 'font/**'
-      - 'image/**'
-      - 'templates/**'
-  
+
   workflow_dispatch:
 
 jobs:
@@ -27,7 +24,7 @@ jobs:
       - name: Update resources
         run: |
           python generate_data_list.py
-      
+
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
