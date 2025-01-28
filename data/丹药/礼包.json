@@ -1,15 +1,33 @@
-{
-    "15050": {
+[
+    {
+        "id": 20001,
         "name": "感谢大礼包",
-        "type": "礼包",
-        "buff_1": 15103,
-        "type_1": "丹药",
-        "name_1": "菩提证道丹",
-        "buff_2": 15006,
-        "type_2": "神物",
-        "name_2": "双子莲",
-        "buff_3": 1998,
-        "type_3": "丹药",
-        "name_3": "渡厄金丹"
+        "type": "package",
+        "level": 1,
+        "quality": 1,
+        "items": [
+            {
+                "id": 15103,
+                "count": 1
+            },
+            {
+                "id": 15006,
+                "count": 1
+            },
+            {
+                "id": 1998,
+                "count": 1
+            }
+        ],
+        "limit": {
+            "level": 56,
+            "stone": 0,
+            "cooldown": 0,
+            "count": 9999999,
+            "distribution": [
+                "gift"
+            ]
+        },
+        "description": "里面会有什么呢？"
     }
-}
+]

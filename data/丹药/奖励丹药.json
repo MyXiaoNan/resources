@@ -1,315 +1,555 @@
-{
-    "1101": {
+[
+    {
+        "id": 1,
         "name": "生骨丹",
-        "type": "丹药",
-        "buff_type": "hp",
-        "buff": 0.05,
-        "price": 100000,
-        "selling": 100,
-        "desc": "回复状态的5%，搬血境以上可以使用,器师可以无视境界限制使用！",
-        "境界": "搬血境",
-        "status": 1,
-        "quantity": 1,
-        "day_num": 10,
-        "all_num": 999999,
-        "rank": 56
+        "type": "elixir",
+        "level": 1,
+        "quality": 1,
+        "buff": [
+            {
+                "type": "hp",
+                "calc": "mul",
+                "value": 0.05,
+                "duration": -1,
+                "state": "active"
+            }
+        ],
+        "limit": {
+            "level": 56,
+            "stone": 100000,
+            "cooldown": 0,
+            "count": 999999,
+            "distribution": [
+                "all"
+            ]
+        },
+        "description": "回复状态的5%，搬血境以上可以使用,器师可以无视境界限制使用！"
     },
-    "1102": {
+    {
+        "id": 2,
         "name": "化瘀丹",
-        "type": "丹药",
-        "buff_type": "hp",
-        "buff": 0.1,
-        "price": 100000,
-        "selling": 100,
-        "desc": "回复状态的10%，洞天境以上可以使用,器师可以无视境界限制使用！",
-        "境界": "洞天境",
-        "status": 1,
-        "quantity": 1,
-        "day_num": 10,
-        "all_num": 999999,
-        "rank": 53
+        "type": "elixir",
+        "level": 1,
+        "quality": 1,
+        "buff": [
+            {
+                "type": "hp",
+                "calc": "mul",
+                "value": 0.1,
+                "duration": -1,
+                "state": "active"
+            }
+        ],
+        "limit": {
+            "level": 52,
+            "stone": 100000,
+            "cooldown": 0,
+            "count": 999999,
+            "distribution": [
+                "all"
+            ]
+        },
+        "description": "回复状态的10%，洞天境以上可以使用,器师可以无视境界限制使用！"
     },
-    "1103": {
+    {
+        "id": 3,
         "name": "培元丹",
-        "type": "丹药",
-        "buff_type": "hp",
-        "buff": 0.15,
-        "price": 100000,
-        "selling": 100,
-        "desc": "回复状态的15%，化灵境以上可以使用,器师可以无视境界限制使用！",
-        "境界": "化灵境",
-        "status": 1,
-        "quantity": 1,
-        "day_num": 10,
-        "all_num": 999999,
-        "rank": 50
+        "type": "elixir",
+        "level": 1,
+        "quality": 1,
+        "buff": [
+            {
+                "type": "hp",
+                "calc": "mul",
+                "value": 0.15,
+                "duration": -1,
+                "state": "active"
+            }
+        ],
+        "limit": {
+            "level": 48,
+            "stone": 100000,
+            "cooldown": 0,
+            "count": 999999,
+            "distribution": [
+                "all"
+            ]
+        },
+        "description": "回复状态的15%，化灵境以上可以使用,器师可以无视境界限制使用！"
     },
-    "1104": {
+    {
+        "id": 4,
         "name": "固元丹",
-        "type": "丹药",
-        "buff_type": "hp",
-        "buff": 0.2,
-        "price": 100000,
-        "selling": 100,
-        "desc": "回复状态的20%，铭纹境以上可以使用,器师可以无视境界限制使用！",
-        "境界": "铭纹境",
-        "status": 1,
-        "quantity": 1,
-        "day_num": 10,
-        "all_num": 999999,
-        "rank": 47
+        "type": "elixir",
+        "level": 1,
+        "quality": 1,
+        "buff": [
+            {
+                "type": "hp",
+                "calc": "mul",
+                "value": 0.2,
+                "duration": -1,
+                "state": "active"
+            }
+        ],
+        "limit": {
+            "level": 47,
+            "stone": 100000,
+            "cooldown": 0,
+            "count": 999999,
+            "distribution": [
+                "all"
+            ]
+        },
+        "description": "回复状态的20%，铭纹境以上可以使用,器师可以无视境界限制使用！"
     },
-    "1105": {
+    {
+        "id": 5,
         "name": "黄龙丹",
-        "type": "丹药",
-        "buff_type": "hp",
-        "buff": 0.25,
-        "price": 100000,
-        "selling": 100,
-        "desc": "回复状态的25%，列阵境以上可以使用,器师可以无视境界限制使用！",
-        "境界": "列阵境",
-        "status": 1,
-        "quantity": 1,
-        "day_num": 10,
-        "all_num": 999999,
-        "rank": 44
+        "type": "elixir",
+        "level": 1,
+        "quality": 1,
+        "buff": [
+            {
+                "type": "hp",
+                "calc": "mul",
+                "value": 0.25,
+                "duration": -1,
+                "state": "active"
+            }
+        ],
+        "limit": {
+            "level": 44,
+            "stone": 100000,
+            "cooldown": 0,
+            "count": 999999,
+            "distribution": [
+                "all"
+            ]
+        },
+        "description": "回复状态的25%，列阵境以上可以使用,器师可以无视境界限制使用！"
     },
-    "1106": {
+    {
+        "id": 6,
         "name": "回元丹",
-        "type": "丹药",
-        "buff_type": "hp",
-        "buff": 0.3,
-        "price": 100000,
-        "selling": 100,
-        "desc": "回复状态的30%，尊者境以上可以使用,器师可以无视境界限制使用！",
-        "境界": "尊者境",
-        "status": 1,
-        "quantity": 1,
-        "day_num": 10,
-        "all_num": 999999,
-        "rank": 41
+        "type": "elixir",
+        "level": 1,
+        "quality": 1,
+        "buff": [
+            {
+                "type": "hp",
+                "calc": "mul",
+                "value": 0.3,
+                "duration": -1,
+                "state": "active"
+            }
+        ],
+        "limit": {
+            "level": 40,
+            "stone": 100000,
+            "cooldown": 0,
+            "count": 999999,
+            "distribution": [
+                "all"
+            ]
+        },
+        "description": "回复状态的30%，尊者境以上可以使用,器师可以无视境界限制使用！"
     },
-    "1107": {
+    {
+        "id": 7,
         "name": "回春丹",
-        "type": "丹药",
-        "buff_type": "hp",
-        "buff": 0.35,
-        "price": 100000,
-        "selling": 100,
-        "desc": "回复状态的35%，神火境以上可以使用,器师可以无视境界限制使用！",
-        "境界": "神火境",
-        "status": 1,
-        "quantity": 1,
-        "day_num": 10,
-        "all_num": 999999,
-        "rank": 38
+        "type": "elixir",
+        "level": 1,
+        "quality": 1,
+        "buff": [
+            {
+                "type": "hp",
+                "calc": "mul",
+                "value": 0.35,
+                "duration": -1,
+                "state": "active"
+            }
+        ],
+        "limit": {
+            "level": 36,
+            "stone": 100000,
+            "cooldown": 0,
+            "count": 999999,
+            "distribution": [
+                "all"
+            ]
+        },
+        "description": "回复状态的35%，神火境以上可以使用,器师可以无视境界限制使用！"
     },
-    "1108": {
+    {
+        "id": 8,
         "name": "养元丹",
-        "type": "丹药",
-        "buff_type": "hp",
-        "buff": 0.4,
-        "price": 100000,
-        "selling": 100,
-        "desc": "回复状态的40%，真一境以上可以使用,器师可以无视境界限制使用！",
-        "境界": "真一境",
-        "status": 1,
-        "quantity": 1,
-        "day_num": 10,
-        "all_num": 999999,
-        "rank": 35
+        "type": "elixir",
+        "level": 1,
+        "quality": 1,
+        "buff": [
+            {
+                "type": "hp",
+                "calc": "mul",
+                "value": 0.4,
+                "duration": -1,
+                "state": "active"
+            }
+        ],
+        "limit": {
+            "level": 34,
+            "stone": 100000,
+            "cooldown": 0,
+            "count": 999999,
+            "distribution": [
+                "all"
+            ]
+        },
+        "description": "回复状态的40%，真一境以上可以使用,器师可以无视境界限制使用！"
     },
-    "1109": {
+    {
+        "id": 9,
         "name": "太元真丹",
-        "type": "丹药",
-        "buff_type": "hp",
-        "buff": 0.45,
-        "price": 100000,
-        "selling": 100,
-        "desc": "回复状态的45%，圣祭境以上可以使用,器师可以无视境界限制使用！",
-        "境界": "圣祭境",
-        "status": 1,
-        "quantity": 1,
-        "day_num": 10,
-        "all_num": 999999,
-        "rank": 32
+        "type": "elixir",
+        "level": 1,
+        "quality": 1,
+        "buff": [
+            {
+                "type": "hp",
+                "calc": "mul",
+                "value": 0.45,
+                "duration": -1,
+                "state": "active"
+            }
+        ],
+        "limit": {
+            "level": 32,
+            "stone": 100000,
+            "cooldown": 0,
+            "count": 999999,
+            "distribution": [
+                "all"
+            ]
+        },
+        "description": "回复状态的45%，圣祭境以上可以使用,器师可以无视境界限制使用！"
     },
-    "1110": {
+    {
+        "id": 10,
         "name": "九阳真丹",
-        "type": "丹药",
-        "buff_type": "hp",
-        "buff": 0.5,
-        "price": 100000,
-        "selling": 100,
-        "desc": "回复状态的50%，天神境以上可以使用,器师可以无视境界限制使用！",
-        "境界": "天神境",
-        "status": 1,
-        "quantity": 1,
-        "day_num": 10,
-        "all_num": 999999,
-        "rank": 29
+        "type": "elixir",
+        "level": 1,
+        "quality": 1,
+        "buff": [
+            {
+                "type": "hp",
+                "calc": "mul",
+                "value": 0.5,
+                "duration": -1,
+                "state": "active"
+            }
+        ],
+        "limit": {
+            "level": 29,
+            "stone": 100000,
+            "cooldown": 0,
+            "count": 999999,
+            "distribution": [
+                "all"
+            ]
+        },
+        "description": "回复状态的50%，天神境以上可以使用,器师可以无视境界限制使用！"
     },
-    "1111": {
+    {
+        "id": 11,
         "name": "归藏灵丹",
-        "type": "丹药",
-        "buff_type": "hp",
-        "buff": 0.6,
-        "price": 100000,
-        "selling": 100,
-        "desc": "回复状态的60%，虚道境以上可以使用,器师可以无视境界限制使用！",
-        "境界": "虚道境",
-        "status": 1,
-        "quantity": 1,
-        "day_num": 10,
-        "all_num": 999999,
-        "rank": 26
+        "type": "elixir",
+        "level": 1,
+        "quality": 1,
+        "buff": [
+            {
+                "type": "hp",
+                "calc": "mul",
+                "value": 0.6,
+                "duration": -1,
+                "state": "active"
+            }
+        ],
+        "limit": {
+            "level": 25,
+            "stone": 100000,
+            "cooldown": 0,
+            "count": 999999,
+            "distribution": [
+                "all"
+            ]
+        },
+        "description": "回复状态的60%，虚道境以上可以使用,器师可以无视境界限制使用！"
     },
-    "1112": {
+    {
+        "id": 12,
         "name": "天命血凝丹",
-        "type": "丹药",
-        "buff_type": "all",
-        "buff": 0,
-        "price": 100000,
-        "selling": 100,
-        "desc": "回复全部状态，斩我境以上可以使用,器师可以无视境界限制使用！",
-        "境界": "斩我境",
-        "status": 1,
-        "quantity": 1,
-        "day_num": 10,
-        "all_num": 999999,
-        "rank": 23
+        "type": "elixir",
+        "level": 1,
+        "quality": 1,
+        "buff": [
+            {
+                "type": "hp",
+                "calc": "mul",
+                "value": 1,
+                "duration": -1,
+                "state": "active"
+            },
+            {
+                "type": "mp",
+                "calc": "mul",
+                "value": 1,
+                "duration": -1,
+                "state": "active"
+            }
+        ],
+        "limit": {
+            "level": 23,
+            "stone": 100000,
+            "cooldown": 0,
+            "count": 999999,
+            "distribution": [
+                "all"
+            ]
+        },
+        "description": "回复全部状态，斩我境以上可以使用,器师可以无视境界限制使用！"
     },
-    "1500": {
+    {
+        "id": 13,
         "name": "冰心丹",
-        "type": "丹药",
-        "buff_type": "level_up_rate",
-        "buff": 1,
-        "price": 100000,
-        "selling": 100,
-        "desc": "使下一次突破成功几率增加1%，尊者境以上可使用",
-        "境界": "尊者境",
-        "status": 1,
-        "quantity": 1,
-        "day_num": 10,
-        "all_num": 100,
-        "rank": 41
+        "type": "elixir",
+        "level": 1,
+        "quality": 1,
+        "buff": [
+            {
+                "type": "exp",
+                "calc": "mul",
+                "value": 0.01,
+                "duration": -1,
+                "state": "active"
+            }
+        ],
+        "limit": {
+            "level": 41,
+            "stone": 100000,
+            "cooldown": 0,
+            "count": 100,
+            "distribution": [
+                "all"
+            ]
+        },
+        "description": "使下一次突破成功几率增加1%，尊者境以上可使用"
     },
-    "1501": {
+    {
+        "id": 14,
         "name": "明心丹",
-        "type": "丹药",
-        "buff_type": "level_up_rate",
-        "buff": 1,
-        "price": 100000,
-        "selling": 100,
-        "desc": "使下一次突破成功几率增加1%，神火境以上可使用",
-        "境界": "神火境",
-        "status": 1,
-        "quantity": 1,
-        "day_num": 10,
-        "all_num": 100,
-        "rank": 38
+        "type": "elixir",
+        "level": 1,
+        "quality": 1,
+        "buff": [
+            {
+                "type": "exp",
+                "calc": "mul",
+                "value": 0.01,
+                "duration": -1,
+                "state": "active"
+            }
+        ],
+        "limit": {
+            "level": 38,
+            "stone": 100000,
+            "cooldown": 0,
+            "count": 100,
+            "distribution": [
+                "all"
+            ]
+        },
+        "description": "使下一次突破成功几率增加1%，神火境以上可使用"
     },
-    "1502": {
+    {
+        "id": 15,
         "name": "幻心玄丹",
-        "type": "丹药",
-        "buff_type": "level_up_rate",
-        "buff": 1,
-        "price": 100000,
-        "selling": 100,
-        "desc": "使下一次突破成功几率增加1%，真一境以上可使用",
-        "境界": "真一境",
-        "status": 1,
-        "quantity": 1,
-        "day_num": 10,
-        "all_num": 100,
-        "rank": 35
+        "type": "elixir",
+        "level": 1,
+        "quality": 1,
+        "buff": [
+            {
+                "type": "exp",
+                "calc": "mul",
+                "value": 0.01,
+                "duration": -1,
+                "state": "active"
+            }
+        ],
+        "limit": {
+            "level": 33,
+            "stone": 100000,
+            "cooldown": 0,
+            "count": 100,
+            "distribution": [
+                "all"
+            ]
+        },
+        "description": "使下一次突破成功几率增加1%，真一境以上可使用"
     },
-    "1503": {
+    {
+        "id": 16,
         "name": "鬼面炼心丹",
-        "type": "丹药",
-        "buff_type": "level_up_rate",
-        "buff": 1,
-        "price": 100000,
-        "selling": 100,
-        "desc": "使下一次突破成功几率增加1%，圣祭境以上可使用",
-        "境界": "圣祭境",
-        "status": 1,
-        "quantity": 1,
-        "day_num": 10,
-        "all_num": 100,
-        "rank": 32
+        "type": "elixir",
+        "level": 1,
+        "quality": 1,
+        "buff": [
+            {
+                "type": "exp",
+                "calc": "mul",
+                "value": 0.01,
+                "duration": -1,
+                "state": "active"
+            }
+        ],
+        "limit": {
+            "level": 32,
+            "stone": 100000,
+            "cooldown": 0,
+            "count": 100,
+            "distribution": [
+                "all"
+            ]
+        },
+        "description": "使下一次突破成功几率增加1%，圣祭境以上可使用"
     },
-    "1504": {
+    {
+        "id": 17,
         "name": "少阴清灵丹",
-        "type": "丹药",
-        "buff_type": "level_up_rate",
-        "buff": 1,
-        "price": 100000,
-        "selling": 100,
-        "desc": "使下一次突破成功几率增加1%，天神境以上可使用",
-        "境界": "天神境",
-        "status": 1,
-        "quantity": 1,
-        "day_num": 10,
-        "all_num": 100,
-        "rank": 29
+        "type": "elixir",
+        "level": 1,
+        "quality": 1,
+        "buff": [
+            {
+                "type": "exp",
+                "calc": "mul",
+                "value": 0.01,
+                "duration": -1,
+                "state": "active"
+            }
+        ],
+        "limit": {
+            "level": 28,
+            "stone": 100000,
+            "cooldown": 0,
+            "count": 100,
+            "distribution": [
+                "all"
+            ]
+        },
+        "description": "使下一次突破成功几率增加1%，天神境以上可使用"
     },
-    "1505": {
+    {
+        "id": 18,
         "name": "天命炼心丹",
-        "type": "丹药",
-        "buff_type": "level_up_rate",
-        "buff": 1,
-        "price": 100000,
-        "selling": 100,
-        "desc": "使下一次突破成功几率增加1%，虚道境以上可使用",
-        "境界": "虚道境",
-        "status": 1,
-        "quantity": 1,
-        "day_num": 10,
-        "all_num": 100,
-        "rank": 26
+        "type": "elixir",
+        "level": 1,
+        "quality": 1,
+        "buff": [
+            {
+                "type": "exp",
+                "calc": "mul",
+                "value": 0.01,
+                "duration": -1,
+                "state": "active"
+            }
+        ],
+        "limit": {
+            "level": 26,
+            "stone": 100000,
+            "cooldown": 0,
+            "count": 100,
+            "distribution": [
+                "all"
+            ]
+        },
+        "description": "使下一次突破成功几率增加1%，虚道境以上可使用"
     },
-    "1506": {
+    {
+        "id": 19,
         "name": "斩我丹",
-        "type": "丹药",
-        "buff_type": "level_up_rate",
-        "buff": 1,
-        "price": 100000,
-        "selling": 100,
-        "desc": "使下一次突破成功几率增加1%，斩我境以上可使用",
-        "境界": "斩我境",
-        "status": 1,
-        "quantity": 1,
-        "day_num": 10,
-        "all_num": 100,
-        "rank": 23
+        "type": "elixir",
+        "level": 1,
+        "quality": 1,
+        "buff": [
+            {
+                "type": "exp",
+                "calc": "mul",
+                "value": 0.01,
+                "duration": -1,
+                "state": "active"
+            }
+        ],
+        "limit": {
+            "level": 22,
+            "stone": 100000,
+            "cooldown": 0,
+            "count": 100,
+            "distribution": [
+                "all"
+            ]
+        },
+        "description": "使下一次突破成功几率增加1%，斩我境以上可使用"
     },
-    "1507": {
+    {
+        "id": 20,
         "name": "苦茶子",
-        "type": "丹药",
-        "buff_type": "level_up_rate",
-        "buff": 1,
-        "price": 100000,
-        "selling": 100,
-        "desc": "使下一次突破成功几率增加1%，遁一境以上可使用",
-        "境界": "遁一境",
-        "status": 1,
-        "quantity": 1,
-        "day_num": 10,
-        "all_num": 100,
-        "rank": 20
+        "type": "elixir",
+        "level": 1,
+        "quality": 1,
+        "buff": [
+            {
+                "type": "exp",
+                "calc": "mul",
+                "value": 0.01,
+                "duration": -1,
+                "state": "active"
+            }
+        ],
+        "limit": {
+            "level": 20,
+            "stone": 100000,
+            "cooldown": 0,
+            "count": 100,
+            "distribution": [
+                "all"
+            ]
+        },
+        "description": "使下一次突破成功几率增加1%，遁一境以上可使用"
     },
-    "1999": {
+    {
+        "id": 21,
         "name": "渡厄丹",
-        "type": "丹药",
-        "buff_type": "level_up",
-        "buff": 0,
-        "price": 100000,
-        "selling": 100,
-        "desc": "使下一次突破丢失的修为减少为0！",
-        "境界": "圣祭境",
-        "status": 1,
-        "quantity": 1,
-        "rank": 51
+        "type": "elixir",
+        "level": 1,
+        "quality": 1,
+        "buff": [
+            {
+                "type": "exp",
+                "calc": "mul",
+                "value": 0,
+                "duration": -1,
+                "state": "active"
+            }
+        ],
+        "limit": {
+            "level": 32,
+            "stone": 100000,
+            "cooldown": 0,
+            "count": 9999999,
+            "distribution": [
+                "all"
+            ]
+        },
+        "description": "使下一次突破丢失的修为减少为0！"
     }
-}
+]
